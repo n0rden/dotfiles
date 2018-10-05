@@ -1,0 +1,118 @@
+#if __has_include(".extend.Xresources")
+#include ".extend.Xresources"
+#endif
+
+URxvt.internalBorder:    1
+URxvt.externalBorder:    1
+!URxvt.lineSpace:        0
+!urxvt*shading:          30
+URxvt.depth:             32
+URxvt.saveLines:         10000
+URxvt*geometry:          96x23
+URxvt*terminalName:      rxvt-unicode-256color
+URxvt*visualBell:        false
+
+urxvt.foreground:	#d0d1d2
+urxvt.background:	#474747
+urxvt.cursorColor:	#d0d1d2
+! black
+URxvt.color0:		#0e0e0e
+URxvt.color8:		#2a2a2a
+! red
+URxvt.color1:		#ff9c98
+URxvt.color9:		#ff6b65
+! green
+!URxvt.color2:		#c7ff98
+!URxvt.color10:		#acff65
+URxvt.color2:		#98ff9c
+URxvt.color10:		#65ff6b
+! blue
+URxvt.color3:		#98c7ff
+URxvt.color11:		#65acff
+! yellow
+URxvt.color4:		#ffd098
+URxvt.color12:		#ffb865
+! magenta
+URxvt.color5:		#ff98c7
+URxvt.color13:		#ff65ac
+! cyan
+!URxvt.color6:		#98ffd0
+!URxvt.color14:		#65ffb8
+URxvt.color6:		#98fbff
+URxvt.color14:		#65f9ff
+! white
+!URxvt.color7:		#c5c8c6
+!URxvt.color15:		#707880
+URxvt.color7:		#c5c8c6
+URxvt.color15:		#d2d2d2
+
+!! Scrollbar
+!URxvt.scrollStyle:      rxvt
+URxvt.scrollBar:         false
+URxvt*scrollTtyOutput:   false
+URxvt*scrollWithBuffer:  true
+URxvt*scrollTtyKeypress: true
+URxvt*transparent: false
+!URxvt*shading: 70
+
+!! Fonts
+
+URxvt.font:               xft:hack:size=10
+URxvt*boldFont:		  xft:hack:Bold:size=10
+!URxvt*italicFont:        xft:hack:size=10
+!URxvt*boldItalicFont:    xft:hack:size=10
+
+URxvt.letterSpace:       0
+
+!! Cursor
+!URxvt.colorUL:             #83a598
+Xcursor.theme:             Adwaita
+
+!! Pointer
+!URxvt.pointerBlank:        true
+
+! transparency percentage
+!100% - FF
+!95% - F2
+!90% - E6
+!85% - D9
+!80% - CC
+!75% - BF
+!70% - B3
+!65% - A6
+!60% - 99
+!55% - 8C
+!50% - 80
+!45% - 73
+!40% - 66
+!35% - 59
+!30% - 4D
+!25% - 40
+!20% - 33
+!15% - 26
+!10% - 1A
+!5% - 0D
+!0% - 00
+
+rofi.theme: ~/.config/rofi/config.rasi
+
+!rofi.color-enabled: true
+! State:	      bg	 fg 	    sep
+!rofi.color-window: #4d32302f, #4d32302f, #0032302f
+! State:	      bg	 fg	 bgalt	     hlbg     hlfg
+!rofi.color-normal: #0032302f, #d8dee9, #0032302f, #cc458588, #32302f
+!rofi.color-active: #4d1b2b34, #6699cc, #4d343d46, #4d6699cc, #d8dee9
+!rofi.color-urgent: #4d1b2b34, #ec5f67, #4d343d46, #4dec5f67, #d8dee9
+
+rofi.modi: window, run, ssh, drun
+!rofi.separator-style: solid
+!rofi.show-icons: true
+!rofi.drun-icon-theme: Paper
+!rofi.sidebar-mode:    true
+!rofi.padding:         500
+!rofi.bw:              0
+!rofi.scrollbar-width: 0
+!rofi.line-margin:     0
+rofi.lines: 10
+!rofi.terminal: urxvt
+rofi.case-sensitive: false
